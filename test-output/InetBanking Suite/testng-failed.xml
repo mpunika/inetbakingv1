@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [InetBanking Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="com.inetbanking.utilities.Reporting"/>
+  </listeners>
+  <test thread-count="5" name="Positive Test(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.inetbanking.testcases.TC_LoginTestFailed_001">
+        <methods>
+          <include name="testPageTitleNegativeValidation"/>
+          <include name="testTearDown"/>
+          <include name="testSetUp"/>
+        </methods>
+      </class> <!-- com.inetbanking.testcases.TC_LoginTestFailed_001 -->
+    </classes>
+  </test> <!-- Positive Test(failed) -->
+</suite> <!-- Failed suite [InetBanking Suite] -->

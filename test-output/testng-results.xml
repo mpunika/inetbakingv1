@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="2" total="4" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-03-21T16:42:47Z" name="InetBanking Suite" finished-at="2021-03-21T16:43:29Z" duration-ms="41710">
+    <groups>
+    </groups>
+    <test started-at="2021-03-21T16:42:47Z" name="Positive Test" finished-at="2021-03-21T16:43:29Z" duration-ms="41710">
+      <class name="com.inetbanking.testcases.TC_LoginTest_001">
+        <test-method is-config="true" signature="testSetUp(java.lang.String)[pri:0, instance:com.inetbanking.testcases.TC_LoginTest_001@54504ecd]" started-at="2021-03-21T16:42:49Z" name="testSetUp" finished-at="2021-03-21T16:42:57Z" duration-ms="8342" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSetUp -->
+        <test-method signature="testPageTitleValidation()[pri:0, instance:com.inetbanking.testcases.TC_LoginTest_001@54504ecd]" started-at="2021-03-21T16:42:57Z" name="testPageTitleValidation" finished-at="2021-03-21T16:43:09Z" duration-ms="11982" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPageTitleValidation -->
+        <test-method is-config="true" signature="testTearDown()[pri:0, instance:com.inetbanking.testcases.TC_LoginTest_001@54504ecd]" started-at="2021-03-21T16:43:18Z" name="testTearDown" finished-at="2021-03-21T16:43:29Z" duration-ms="11161" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTearDown -->
+      </class> <!-- com.inetbanking.testcases.TC_LoginTest_001 -->
+      <class name="com.inetbanking.testcases.TC_LoginTestFailed_001">
+        <test-method signature="testPageTitleNegativeValidation()[pri:0, instance:com.inetbanking.testcases.TC_LoginTestFailed_001@38b27cdc]" started-at="2021-03-21T16:43:09Z" name="testPageTitleNegativeValidation" finished-at="2021-03-21T16:43:18Z" duration-ms="8581" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPageTitleNegativeValidation -->
+      </class> <!-- com.inetbanking.testcases.TC_LoginTestFailed_001 -->
+    </test> <!-- Positive Test -->
+  </suite> <!-- InetBanking Suite -->
+</testng-results>
